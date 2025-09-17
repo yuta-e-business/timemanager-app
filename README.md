@@ -1,4 +1,4 @@
-# timemanager-app — 質問で書ける日記アプリ
+# timemanager-app — 質問に答えると日記を作成してくれるアプリ
 
 ## 概要
 **timemanager-app** は、ただの日記アプリではありません。  
