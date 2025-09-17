@@ -1,0 +1,40 @@
+# Flutter / Dart build artifacts
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+.packages
+
+# iOS / macOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.podspec
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdata/
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/Flutter.podspec
+
+# Android
+*.jks
+*.keystore
+**/google-services.json
+**/key.properties
+
+# Firebase iOS
+ios/Runner/GoogleService-Info.plist
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+
+# OS-specific (macOS)
+.DS_Store
+__MACOSX/
+
+# Logs / Coverage
+*.log
+coverage/
