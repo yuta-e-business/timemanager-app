@@ -1,20 +1,25 @@
-<<<<<<< HEAD
-# timemanager-app
-=======
-# timemanager
+# timemanager-app — 質問で書ける日記アプリ
 
-A new Flutter project.
+## 概要
+**timemanager-app** は、ただの日記アプリではありません。  
+ユーザーはアプリから提示される**質問に答えるだけ**で、その日の出来事や気づきを自然に言語化できます。  
+「白紙からは書きづらい」という課題に対し、**ガイド付き（Q&A）で日記を構成**するのが特徴です。
 
-## Getting Started
+## 主な機能
+- **ガイド質問で日記作成**：その日の振り返りを促す質問に回答すると、エントリが生成されます。
+- **カレンダー表示**：過去の日記を月次カレンダーから素早く参照。（`lib/calendar.dart`）
+- **エントリ詳細**：作成した日記の詳細を閲覧。（`lib/detail.dart`）
+- **回答コンポーネント**：質問への回答UIを分離し保守性を向上。（`lib/answer.dart`）
+- **共通フッター**：画面間のナビゲーションを統一。（`lib/footer.dart`）
 
-This project is a starting point for a Flutter application.
+## 技術スタック
+- **Flutter (Dart)**  
+- 対応プラットフォーム：iOS / Android / Web
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 3e71592 (Initial commit: Flutter app (include Gradle wrapper))
+## 使い方（ローカル実行）
+```bash
+flutter pub get
+# Web（手軽に試す場合）
+flutter run -d chrome
+# iOS / Android は各プラットフォームのセットアップ後に
+# flutter run
